@@ -3,8 +3,6 @@
 </h1>
 <p align="center">Desafio do Ignite sobre os componentização em ReactJS</p>
 
-<p align="center">Desafio Ignite</p>
-
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=react&message=16.13.1&color=61DAFB&logo=react" />
   <img src="https://img.shields.io/badge/last%20commit-november-important" />
