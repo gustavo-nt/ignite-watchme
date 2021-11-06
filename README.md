@@ -9,10 +9,8 @@
 <p align="center">Aplicação da NLW Heat</p>
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=node&message=14.15.1&color=339933&logo=node.js" />
-  <img src="https://img.shields.io/static/v1?label=react&message=16.13.1&color=61DAFB&logo=react" />
-  <img src="https://img.shields.io/static/v1?label=react%20native&message=42.0.0&color=0088CC&logo=reactos" />
-  <img src="https://img.shields.io/badge/last%20commit-october-important" />
+  <img src="https://img.shields.io/badge/react%20version-16.8.0-informational"/>
+  <img src="https://img.shields.io/badge/last%20commit-november-blue" />
   <img src="https://img.shields.io/badge/license-MIT-success"/>
 </p>
 
