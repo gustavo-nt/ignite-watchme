@@ -1,6 +1,7 @@
 <h1 align="center">
     🚀 WatchMe
 </h1>
+<p align="center">Desafio do Ignite sobre os componentização em ReactJS</p>
 
 <p align="center">Desafio Ignite</p>
 
