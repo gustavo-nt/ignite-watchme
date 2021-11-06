@@ -1,16 +1,12 @@
-<p align="center">
-  <img src="https://github.com/gustavo-nt/dowhile/blob/master/web/src/assets/logo.svg" alt="logo" />
-</p>
-
 <h1 align="center">
     🚀 WatchMe
 </h1>
 
-<p align="center">Aplicação da NLW Heat</p>
+<p align="center">Desafio Ignite</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/react%20version-16.8.0-informational"/>
-  <img src="https://img.shields.io/badge/last%20commit-november-blue" />
+  <img src="https://img.shields.io/static/v1?label=react&message=16.13.1&color=61DAFB&logo=react" />
+  <img src="https://img.shields.io/badge/last%20commit-november-important" />
   <img src="https://img.shields.io/badge/license-MIT-success"/>
 </p>
 
@@ -44,37 +40,20 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e/ou [Yarn](https://https://yarnpkg.com/) 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-
-### 📙 Rodando o Backend
+### 📗 Rodando a Aplicação (web)
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/gabriel-nt
-
-# Navegue para a pasta
-$ cd backend
+$ git clone https://github.com/gustavo-nt/disneyplus-clone
 
 # Instale as dependências
-$ yarn
-
-# Rode as migrations
-$ npx prisma migrate dev
+$ yarn ou npm
 
 # Execute a aplicação
-$ yarn dev
-```
+$ yarn ou npm dev
 
-### 📗 Rodando o Frontend (web)
-
-```bash
-# Navegue para a pasta
-$ cd frontend
-
-# Instale as dependências
-$ yarn
-
-# Execute a aplicação
-$ yarn dev
+# Rode o servidor fake
+$ yarn ou npm server
 ```
 
 ### 🚀 Tecnologias
@@ -82,23 +61,19 @@ $ yarn dev
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - ReactJS
-- React Native
-- NodeJS
-- SqLite3
+- Typescript
 
 ### 📕 Bibliotecas
 
 Esse projeto foi utilizou das seguintes lib:
 
-- expo
 - sass
 - axios
 - typescript
 - react-icons
-- express
-- prisma
-- socket.io
-- jsonwebtoken
+- webpack
+- babel
+- json-server
 
 ### 📝 Licença
 
