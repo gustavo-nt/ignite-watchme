@@ -27,11 +27,10 @@
 - [x] Informações dos filmes
 
 ### 💻 Projeto
-
-DoWhile2021 é um evento produzido pela Rocketseat e nesta NLW foi construído um chat para o evento. Projeto desenvolvido durante a Next Level Week Heat. 
+WatchMe é uma aplicação para entusiastas de filmes, onde dispõe de uma listagem de filmes dividos em categorias, como Ação e Família.
 
 ### ✅ Demonstração
-<img src="https://github.com/gustavo-nt/dowhile/blob/master/web/src/assets/capa.png" />
+<img src="https://github.com/gustavo-nt/ignite-watchme/blob/master/src/assets/watchme.png" />
 
 ### ⚙ Pré-requisitos
 
@@ -43,7 +42,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/gustavo-nt/disneyplus-clone
+$ git clone https://github.com/gustavo-nt/ignite-watchme
 
 # Instale as dependências
 $ yarn ou npm
