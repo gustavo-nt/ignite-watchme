@@ -1,3 +1,7 @@
+<h4 align="center">
+  <img src="https://github.com/gustavo-nt/ignite-watchme/blob/master/src/assets/logo.png" alt="logo" height="175"/>
+</h4>
+
 <h1 align="center">
     🚀 WatchMe
 </h1>
@@ -27,7 +31,7 @@
 - [x] Informações dos filmes
 
 ### 💻 Projeto
-WatchMe é uma aplicação para entusiastas de filmes, onde dispõe de uma listagem de filmes dividos em categorias, como Ação e Família. Esse Projeto foi desenvolvido como desafio complementar do Capítulo I do Bootcamp Ignite.
+WatchMe é uma aplicação para entusiastas de filmes, onde dispõe de uma listagem de filmes dividos em categorias, como Ação e Família. Esse Projeto foi desenvolvido como desafio complementar da Semana 01 do Bootcamp Ignite.
 
 ### ✅ Demonstração
 <img src="https://github.com/gustavo-nt/ignite-watchme/blob/master/src/assets/watchme.png" />
