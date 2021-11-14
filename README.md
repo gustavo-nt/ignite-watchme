@@ -27,7 +27,7 @@
 - [x] Informações dos filmes
 
 ### 💻 Projeto
-WatchMe é uma aplicação para entusiastas de filmes, onde dispõe de uma listagem de filmes dividos em categorias, como Ação e Família.
+WatchMe é uma aplicação para entusiastas de filmes, onde dispõe de uma listagem de filmes dividos em categorias, como Ação e Família. Esse Projeto foi desenvolvido como desafio complementar do Capítulo I do Bootcamp Ignite.
 
 ### ✅ Demonstração
 <img src="https://github.com/gustavo-nt/ignite-watchme/blob/master/src/assets/watchme.png" />
