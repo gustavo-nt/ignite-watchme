@@ -71,7 +71,6 @@ Esse projeto foi utilizou das seguintes lib:
 
 - sass
 - axios
-- typescript
 - react-icons
 - webpack
 - babel
