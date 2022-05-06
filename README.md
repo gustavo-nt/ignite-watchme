@@ -26,22 +26,24 @@
 🚧  Finalizado  🚧
 </h3>
 
-### 📎 Features 
+### 📎 Features
 
 - [x] Seleção de Categorias
 - [x] Listagem de filmes
 - [x] Informações dos filmes
 
 ### 💻 Projeto
+
 WatchMe é uma aplicação para entusiastas de filmes, onde dispõe de uma listagem de filmes dividos em categorias, como Ação e Família. Esse Projeto foi desenvolvido como desafio complementar da Semana 01 do Bootcamp Ignite.
 
 ### ✅ Demonstração
+
 <img src="https://github.com/gustavo-nt/ignite-watchme/blob/master/src/assets/watchme.png" />
 
 ### ⚙ Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e/ou [Yarn](https://https://yarnpkg.com/) 
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e/ou [Yarn](https://https://yarnpkg.com/)
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 ### 📗 Rodando a Aplicação (web)
@@ -58,9 +60,6 @@ $ yarn ou npm start
 
 # Rode o servidor fake
 $ yarn ou npm server
-
-# Execute os testes
-$ yarn test
 ```
 
 ### 🚀 Tecnologias
