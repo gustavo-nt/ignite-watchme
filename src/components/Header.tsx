@@ -1,15 +1,15 @@
-import '../styles/header.scss';
+import { useMovies } from "../hooks/useMovies";
 
-interface HeaderProps {
-  title: String;
-}
+import "../styles/header.scss";
 
-export function Header(props: HeaderProps) {
+export function Header() {
+  const { selectedGenre } = useMovies();
+
   return (
-    <div className="container">
-      <header>
-        <span className="category">Categoria:<span> {props.title}</span></span>
-      </header>
-    </div>
-  )
+    <header>
+      <span className="category">
+        Categoria:<span> {selectedGenre.title}</span>
+      </span>
+    </header>
+  );
 }

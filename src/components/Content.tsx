@@ -1,28 +1,30 @@
-import { Header } from './Header';
-import { MovieCard } from './MovieCard';
-import { MovieProps } from '../types/types';
+import { useMovies } from "../hooks/useMovies";
 
-import '../styles/content.scss';
+import { Header } from "./Header";
+import { MovieCard } from "./MovieCard";
 
-interface ContentProps {
-  movies: Array<MovieProps>;
-  selectedGenre: { title: string };
-}
+import "../styles/content.scss";
 
-export function Content(props: ContentProps) {
-  const { movies, selectedGenre } = props;
+export function Content() {
+  const { movies } = useMovies();
 
   return (
     <div className="container">
-      <Header title={selectedGenre.title} />
+      <Header />
 
       <main>
         <div className="movies-list">
-          {movies.map(movie => (
-            <MovieCard key={movie.imdbID} title={movie.Title} poster={movie.Poster} runtime={movie.Runtime} rating={movie.Ratings[0].Value} />
+          {movies.map((movie) => (
+            <MovieCard
+              key={movie.imdbID}
+              title={movie.Title}
+              poster={movie.Poster}
+              runtime={movie.Runtime}
+              rating={movie.Ratings[0].Value}
+            />
           ))}
         </div>
       </main>
     </div>
-  )
+  );
 }
