@@ -56,7 +56,7 @@ $ git clone https://github.com/gustavo-nt/ignite-watchme
 $ yarn ou npm
 
 # Execute a aplicação
-$ yarn ou npm start
+$ yarn ou npm dev
 ```
 
 ### 🚀 Tecnologias
