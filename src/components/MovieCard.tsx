@@ -14,7 +14,6 @@ export function MovieCard(props: MovieCardProps) {
   return (
     <div className="movie-card">
       <img
-        loading="lazy"
         src={`https://image.tmdb.org/t/p/w300${props.poster}`}
         alt={props.title}
       />
