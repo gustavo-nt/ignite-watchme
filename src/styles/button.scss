@@ -3,22 +3,21 @@ button {
   align-items: center;
   justify-content: space-between;
 
+  border: 0;
+  cursor: pointer;
+  padding: 1.1875rem 2rem;
+  background: var(--background-button);
+  border-radius: 0.25rem;
   max-width: 20rem;
   width: 100%;
 
-  border: 0;
-  background: var(--background-button);
-  padding: 1.1875rem 2rem;
-  border-radius: 0.25rem;
-
   font-size: 1.125rem;
+  transition: background 200ms;
   color: var(--white);
 
   &:hover {
     background: var(--background-button2);
   }
-
-  transition: background 200ms;
 
   & + button {
     margin-top: 1rem;
@@ -31,5 +30,19 @@ button {
   &.selected {
     background: var(--background-button2);
     color: var(--yellow);
+  }
+}
+
+@media (max-width: 888px) {
+  button {
+    padding: 1rem 1.125rem;
+
+    > svg {
+      margin-right: 0.5rem;
+    }
+
+    + button {
+      margin-top: 0;
+    }
   }
 }

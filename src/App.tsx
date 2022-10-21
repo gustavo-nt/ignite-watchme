@@ -7,7 +7,7 @@ import "./styles/global.scss";
 
 export function App() {
   return (
-    <div style={{ display: "flex", flexDirection: "row" }}>
+    <div className="wrapper">
       <MoviesProvider>
         <SideBar />
         <Content />

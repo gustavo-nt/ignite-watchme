@@ -1,5 +1,5 @@
-import { useMovies } from "../hooks/useMovies";
 import { Button } from "./Button";
+import { useMovies } from "../hooks/useMovies";
 
 import "../styles/sidebar.scss";
 

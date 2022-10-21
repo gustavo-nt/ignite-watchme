@@ -4,26 +4,33 @@ import { Header } from "./Header";
 import { MovieCard } from "./MovieCard";
 
 import "../styles/content.scss";
+import { Loading } from "./loading";
 
 export function Content() {
-  const { movies } = useMovies();
+  const { movies, isLoading } = useMovies();
 
   return (
     <div className="container">
       <Header />
 
       <main>
-        <div className="movies-list">
-          {movies.map((movie) => (
-            <MovieCard
-              key={movie.imdbID}
-              title={movie.Title}
-              poster={movie.Poster}
-              runtime={movie.Runtime}
-              rating={movie.Ratings[0].Value}
-            />
-          ))}
-        </div>
+        {isLoading ? (
+          <div className="movies-loading">
+            <Loading />
+          </div>
+        ) : (
+          <div className="movies-list">
+            {movies.map((movie) => (
+              <MovieCard
+                key={movie.id}
+                title={movie.title}
+                poster={movie.poster_path}
+                rating={movie.vote_average}
+                releaseDate={movie.release_date}
+              />
+            ))}
+          </div>
+        )}
       </main>
     </div>
   );

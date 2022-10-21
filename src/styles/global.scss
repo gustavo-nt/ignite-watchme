@@ -1,11 +1,11 @@
 :root {
+  --gray: #bec2c6;
+  --white: #fbfbfb;
+  --yellow: #fae800;
   --background: #1f2229;
   --background2: #2e303c;
   --background-button: #373945;
   --background-button2: #4b4d59;
-  --yellow: #fae800;
-  --gray: #bec2c6;
-  --white: #fbfbfb;
 }
 
 * {
@@ -14,17 +14,26 @@
   box-sizing: border-box;
 }
 
-body {
-  font: 16px "Poppins", Arial, sans-serif;
-  color: #fbfbfb;
-  background: var(--background);
-}
-
+body,
 input,
+button,
 textarea {
-  font-family: "Poppins";
+  color: var(--white);
+  background: var(--background);
+  -webkit-font-smoothing: antialiased;
+  font: 1rem "Poppins", Arial, sans-serif;
 }
 
-button {
-  cursor: pointer;
+body .wrapper {
+  display: flex;
+}
+
+@media (max-width: 888px) {
+  html {
+    font-size: 87.5%;
+  }
+
+  body .wrapper {
+    display: block;
+  }
 }

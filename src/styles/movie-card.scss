@@ -1,45 +1,49 @@
 .movie-card {
+  display: flex;
+  justify-content: center;
   position: relative;
 
   img {
-    width: 14.31rem;
-    height: 21.25rem;
+    width: 100%;
+    height: auto;
   }
 
   > div {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-
     display: flex;
+    position: absolute;
+    background: rgba(15, 15, 15, 0.5);
     justify-content: center;
-
-    background: rgba(31, 34, 41, 0.5);
+    inset: 0;
 
     .movie-info {
-      max-width: 12.31rem;
       width: 100%;
+      max-width: 12.31rem;
 
       display: flex;
+      padding: 0 0.5rem;
       flex-direction: column;
 
       > span {
-        font-weight: 600;
         font-size: 1rem;
-        color: #fbfbfb;
+        font-weight: 600;
+        color: var(--white);
 
         margin-top: auto;
         margin-bottom: 0.5rem;
+
+        display: block;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
       }
 
       .meta {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-
         margin-bottom: 1rem;
+        justify-content: space-between;
+        flex-direction: row;
 
         div {
           display: flex;
@@ -49,11 +53,37 @@
           color: var(--gray);
 
           svg {
-            color: #fae800;
+            color: var(--yellow);
             margin-right: 0.5rem;
           }
         }
       }
+    }
+  }
+}
+
+@media (max-width: 1198px) {
+  .movie-card {
+    width: 50%;
+    padding: 8px;
+
+    &:nth-child(1),
+    &:nth-child(2) {
+      margin-top: -0.5rem;
+    }
+
+    &:nth-last-child(1),
+    &:nth-last-child(2) {
+      margin-bottom: -0.5rem;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    > div {
+      inset: 0.5rem;
     }
   }
 }
