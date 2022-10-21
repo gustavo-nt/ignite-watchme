@@ -57,9 +57,6 @@ $ yarn ou npm
 
 # Execute a aplicação
 $ yarn ou npm start
-
-# Rode o servidor fake
-$ yarn ou npm server
 ```
 
 ### 🚀 Tecnologias
@@ -68,7 +65,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - ReactJS
 - Typescript
-- Jest
 
 ### 📕 Bibliotecas
 
@@ -79,7 +75,7 @@ Esse projeto foi utilizou das seguintes lib:
 - react-icons
 - webpack
 - babel
-- json-server
+- tmdb
 
 ### 📝 Licença
 
